@@ -1,0 +1,8 @@
+.NavbarContainer {
+  box-sizing: border-box;
+  background-color: rgb(233, 200, 184);
+  padding: 0.5px;
+  font-family: "AGUAFINA SCRIPT PRO", cursive;
+  font-size: 20px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}

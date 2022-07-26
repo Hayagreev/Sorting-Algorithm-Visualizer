@@ -1,0 +1,63 @@
+.array-container {
+  position: absolute;
+  left: 100px;
+  width: 1250px;
+  height: 650px;
+  margin-top: 20px;
+}
+
+.array-bar {
+  width: 2px;
+  background-color: blue;
+  display: inline-block;
+  margin: 1px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.arr-size-slider {
+  position: static;
+}
+
+.gradient-button {
+  margin: 10px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgba(230, 230, 230);
+  border-radius: 10px;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to right,
+    #dd5e89 0%,
+    #f7bb97 51%,
+    #dd5e89 100%
+  );
+}
+
+.gradient-button:hover {
+  color: rgba(255, 255, 255);
+  background-position: right center;
+  box-shadow: 1px 1px 8px blue, 3px 3px 8px red, 5px 5px 8px green;
+}
+
+.slider {
+  margin: 10px;
+  align-items: center;
+  width: 200px;
+}
+
+.arrays {
+  margin: 15px;
+}
+
+body {
+  background-color: rgb(224, 231, 245);
+}
