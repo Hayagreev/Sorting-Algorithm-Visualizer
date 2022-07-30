@@ -1,6 +1,6 @@
 import React from "react";
-import SortingVis from "./SortingVis/SortingVis.jsx";
-import Navbar from "./Navbar.jsx";
+import SortingVis from "./SortingVis/SortingVis";
+import Navbar from "./Navbar";
 import "./App.css";
 
 function App() {
