@@ -393,7 +393,7 @@ export default class SortingVis extends React.Component {
 
             <div className = "array-container">
 
-                <h3>Please note that there is a small chance of a glitch occuring in the rendering at low animation speeds when sorting due to the rapid switching of bars, causing the final array to appear unsorted (as some bars will be a higher/lower height than they should be). When this glitch happens, please click the "Reset Array to Original State" button, and retry the sorting algorithm. </h3>
+                <h3 className="note">Please note that there is a small chance of a glitch occuring in the rendering at low animation speeds when sorting due to the rapid switching of bars, causing the final array to appear unsorted (as some bars will be a higher/lower height than they should be). When this glitch happens, please click the "Reset Array to Original State" button, and retry the sorting algorithm. </h3>
 
                 <div>
                     <input 

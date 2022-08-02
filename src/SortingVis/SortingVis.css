@@ -1,9 +1,9 @@
 .array-container {
   position: absolute;
-  left: 100px;
-  width: 1250px;
-  height: 650px;
   margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .array-bar {
@@ -60,4 +60,10 @@
 
 body {
   background-color: rgb(224, 231, 245);
+}
+
+.note {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
